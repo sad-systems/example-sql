@@ -3,7 +3,7 @@
 SELECT
 
 -- Выводим только требуемые нам поля с заданными названиями:
--- topic_id,
+
 topics.title as `Тема`,
 posts.text   as `Сообщение`,
 users.name   as `Автор`,
@@ -20,7 +20,7 @@ FROM (
 
         -- Выбираем всех уникальных пользователей по темам:
 
-        SELECT DISTINCT topic_id, user_id FROM `posts` -- ORDER BY ts DESC
+        SELECT DISTINCT topic_id, user_id FROM `posts`
 
     ) as tmp
     GROUP BY topic_id HAVING user_count > 3
@@ -29,7 +29,7 @@ FROM (
 
 -- Собираем все необходимые данные вместе:
 
-JOIN posts  USING (topic_id) -- ON found_topics.topic_id = posts.topic_id
+JOIN posts  USING (topic_id)
 JOIN users  ON posts.user_id  = users.id
 JOIN topics ON topic_id       = topics.id
 
