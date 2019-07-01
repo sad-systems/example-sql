@@ -1,5 +1,7 @@
 # Выборка списка тем из публичного форума
 
+> Change language: [![Русский](../../docs/assets/images/ru.gif)](README.md) [![English](../../docs/assets/images/en.gif)](README.en.md)
+
 ## Исходные данные
 
 Дана схема БД для простого публичного форума (без администрирования). 

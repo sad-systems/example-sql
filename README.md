@@ -1,15 +1,15 @@
-# Examples of SQL queries
+# Примеры SQL запросов
 
-> Сменить язык: [![Русский](docs/assets/images/ru.gif)](README.ru.md) [![English](docs/assets/images/en.gif)](README.md)
+> Change language: [![Русский](docs/assets/images/ru.gif)](README.md) [![English](docs/assets/images/en.gif)](README.en.md)
 
-###### Author: MrDigger <mrdigger@mail.ru>
+###### Автор: MrDigger <mrdigger@mail.ru>
 ###### © SAD-Systems [http://sad-systems.ru](), 2019
     
-## Description
+## Описание
 
-Examples of solutions to test tasks for compiling SQL queries.
+Примеры решения тестовых заданий по составлению SQL запросов.
 
-### Examples
+### Примеры
 
-  * [Example 1](./examples/1)
-  * [Example 2](./examples/2)
+  * [Пример 1](./examples/1)
+  * [Пример 2](./examples/2)
